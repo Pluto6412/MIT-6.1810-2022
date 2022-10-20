@@ -5,11 +5,11 @@ user/_find：     文件格式 elf64-littleriscv
 Disassembly of section .text:
 
 0000000000000000 <match>:
+
 void
 match(char *path, char *fileName)
 {
   char *p = path;
-  //printf("%s--flag\n", p);
   while(*p != 0) {
    0:	00054783          	lbu	a5,0(a0)
    4:	c7b9                	beqz	a5,52 <match+0x52>

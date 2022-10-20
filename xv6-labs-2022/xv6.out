@@ -6,5 +6,7 @@ hart 1 starting
 init: starting sh
 $ sh < xargstest.sh
 $ echo DONE
-$ $ $ $ $ exec xargs failed
+$ $ $ $ $ hello
+hello
+hello
 $ $ DONE
