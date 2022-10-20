@@ -1,6 +1,6 @@
 # Lab: Xv6 and Unix utilities
 
-## Boot Xv6 easy
+## Boot Xv6(easy)
 
 实验环境：Windows11 + WSL2 + Ubuntu22.04.1LTS
 
