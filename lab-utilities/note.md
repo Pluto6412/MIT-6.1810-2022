@@ -2,7 +2,7 @@
 
 ## Boot Xv6(easy)
 
-实验环境：Windows11 + WSL2 + Ubuntu22.04.1LTS
+实验环境：Windows11 + WSL2 + Ubuntu22.04LTS
 
 ## sleep(easy)
 
