@@ -354,3 +354,31 @@ int main(int argc, char *argv[])
 }
 ```
 
+## make grade 测试结果
+
+```json
+== Test sleep, no arguments ==
+$ make qemu-gdb
+sleep, no arguments: OK (1.8s)
+== Test sleep, returns ==
+$ make qemu-gdb
+sleep, returns: OK (1.2s)
+== Test sleep, makes syscall ==
+$ make qemu-gdb
+sleep, makes syscall: OK (0.8s)
+== Test pingpong ==
+$ make qemu-gdb
+pingpong: OK (0.9s)
+== Test primes ==
+$ make qemu-gdb
+primes: OK (1.1s)
+== Test find, in current directory ==
+$ make qemu-gdb
+find, in current directory: OK (1.2s)
+== Test find, recursive ==
+$ make qemu-gdb
+find, recursive: OK (0.9s)
+== Test xargs ==
+$ make qemu-gdb
+xargs: OK (0.9s)
+```
